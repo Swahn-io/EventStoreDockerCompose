@@ -15,5 +15,5 @@ services:
       - "2112:2112"
       - "2113:2113"
     restart: always
-    volumse:
+    volumes:
       - /var/lib/eventstore:/var/lib/eventstore
